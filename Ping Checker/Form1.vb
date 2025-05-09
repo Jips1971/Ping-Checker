@@ -38,7 +38,7 @@ Public Class Form1
 
 
         If TextBox1.Text = "" Then
-            MsgBox("Duh!! Fill in the box first")
+            MsgBox("Duh!!  OOps, Fill in the box first")
             Button1.Enabled = True
             StopAll()
         Else
